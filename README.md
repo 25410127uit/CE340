@@ -29,7 +29,7 @@ CE340/
 
 ```bash
 git clone <repo-url>
-cd 
+cd <tên-repo>
 pip install -r requirements.txt
 ```
 

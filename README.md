@@ -7,7 +7,7 @@ Hệ thống điểm danh khuôn mặt thời gian thực sử dụng **LBPH (Lo
 ## 📁 Cấu trúc project
 
 ```
-AIoT_files/
+/
 ├── ai_subscriber_fixed.py      # Subscriber chính: nhận diện khuôn mặt + MQTT
 ├── dashboard_fixed.py          # Web dashboard realtime (Flask + SocketIO)
 ├── test_lbph_accuracy_fixed.py # Script kiểm tra độ chính xác model

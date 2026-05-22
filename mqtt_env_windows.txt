@@ -1,0 +1,5 @@
+# PowerShell - chạy trước khi mở ai_subscriber_fixed.py / dashboard_fixed.py
+$env:MQTT_USER="your_hivemq_user"
+$env:MQTT_PASS="your_hivemq_password"
+$env:MQTT_BROKER="44664d8119b54fadaf9870a37274af6b.s1.eu.hivemq.cloud"
+$env:MQTT_PORT="8883"

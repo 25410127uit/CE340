@@ -1,0 +1,26 @@
+# ── Môi trường Python ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ── Biến môi trường / credentials ──────────────────────────
+.env
+*.env
+mqtt_env_windows.txt
+
+# ── Model & dữ liệu được sinh ra khi chạy ──────────────────
+lbph_model.yml
+encodings.json
+attendance.db
+
+# ── IDE ────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── OS ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

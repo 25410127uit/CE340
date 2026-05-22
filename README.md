@@ -7,7 +7,7 @@ Hệ thống điểm danh khuôn mặt thời gian thực sử dụng **LBPH (Lo
 ## 📁 Cấu trúc project
 
 ```
-/
+CE340/
 ├── ai_subscriber.py      # Subscriber chính: nhận diện khuôn mặt + MQTT
 ├── dashboard.py          # Web dashboard realtime (Flask + SocketIO)
 ├── test_lbph_accuracy.py # Script kiểm tra độ chính xác model
@@ -29,7 +29,7 @@ Hệ thống điểm danh khuôn mặt thời gian thực sử dụng **LBPH (Lo
 
 ```bash
 git clone <repo-url>
-cd AIoT_files
+cd 
 pip install -r requirements.txt
 ```
 

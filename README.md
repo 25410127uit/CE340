@@ -103,8 +103,4 @@ Xóa `lbph_model.yml` và `encodings.json` để model tự train lại.
 
 ---
 
-## 📝 Lưu ý
 
-- `lbph_model.yml` và `attendance.db` được sinh ra khi chạy, **không commit** vào Git.
-- Credentials MQTT phải đặt qua biến môi trường, **không hardcode** vào code.
-- Hàm `recognize_face()` hiện đang **mô phỏng** (lấy ảnh ngẫu nhiên từ dataset) thay vì dùng webcam thật — phù hợp để demo/test.

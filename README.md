@@ -8,10 +8,10 @@ Hệ thống điểm danh khuôn mặt thời gian thực sử dụng **LBPH (Lo
 
 ```
 /
-├── ai_subscriber_fixed.py      # Subscriber chính: nhận diện khuôn mặt + MQTT
-├── dashboard_fixed.py          # Web dashboard realtime (Flask + SocketIO)
-├── test_lbph_accuracy_fixed.py # Script kiểm tra độ chính xác model
-├── convert_att_fixed.py        # Convert AT&T dataset → cấu trúc dataset/
+├── ai_subscriber.py      # Subscriber chính: nhận diện khuôn mặt + MQTT
+├── dashboard.py          # Web dashboard realtime (Flask + SocketIO)
+├── test_lbph_accuracy.py # Script kiểm tra độ chính xác model
+├── convert_att.py        # Convert AT&T dataset → cấu trúc dataset/
 ├── esp32.zip                   # Firmware ESP32
 ├── dataset/                    # Dataset khuôn mặt (40 người × 10 ảnh)
 │   ├── Nguoi_01/

@@ -14,7 +14,7 @@ CE340/
 ├── convert_att.py        # Convert AT&T dataset → cấu trúc dataset/
 ├── esp32.zip                   # Firmware ESP32
 ├── dataset/                    # Dataset khuôn mặt (40 người × 10 ảnh)
-│   ├── Nguoi_01/
+│   ├── sv_01/
 │   │   ├── 1.jpg
 │   │   └── ...
 │   └── ...
